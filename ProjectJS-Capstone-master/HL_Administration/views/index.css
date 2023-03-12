@@ -1,0 +1,17 @@
+/* body {
+  background-image: url(https://fastly.4sqi.net/img/general/width960/460881986_wPh7GGxDbYh2uYMqFOAj61iDhE0i642Kn4GSGm8vh0U.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+} */
+.spanWarning {
+  display: none;
+  color: red;
+  font-style: italic;
+}
+.searchName {
+  height: 50%;
+}
+.sortPrice {
+  height: 38px;
+}

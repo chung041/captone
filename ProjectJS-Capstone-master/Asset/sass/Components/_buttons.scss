@@ -1,0 +1,50 @@
+$border: 2px solid $color-blue;
+
+.btn-gold-white {
+  @include buttonStyle($color-blue, $border, 8px, 25px, 10px);
+  @include textStyle($color-white, 14px, 600);
+
+  &:hover {
+    @include buttonStyleHover($color-blue, $color-white);
+  }
+}
+
+.btn-gold-blue {
+  @include buttonStyle($color-blue, $border, 8px, 25px, 10px);
+  @include textStyle($color-white, 14px, 600);
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+// .btn-green {
+//   @include buttonStyle($color-green-dark, $border-green, 5px, 20px, 10px);
+//   transition: all .5s;
+//   font-weight: 700;
+  
+//   &:hover {
+//       @include buttonStyleHover($color-green-dark, $color-text, 0.7);
+//   }
+// }
+
+// .btn-grey {
+//   @include buttonStyle(grey, $border-grey, 5px, 20px, 10px);
+//   transition: all .5s;
+//   font-weight: 700;
+  
+//   &:hover {
+//       @include buttonStyleHover(grey, $color-text, 0.7);
+//   }
+// }
+
+
+// .btn-red {
+//   @include buttonStyle(red, $border-red, 5px, 20px, 10px);
+//   transition: all .5s;
+//   font-weight: 700;
+  
+//   &:hover {
+//       @include buttonStyleHover(red, $color-text, 0.7);
+//   }
+// }

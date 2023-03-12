@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.btn-phone-white {
+  background-color: transparent;
+  border: 2px solid #2196f3;
+  border-radius: 8px;
+  padding: 15px 45px;
+  color: #2196f3;
+  font-size: 14px;
+  font-weight: 600;
+}
+.btn-phone-white:hover {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.btn-phone-blue {
+  background-color: #2196f3;
+  border: 2px solid #2196f3;
+  border-radius: 8px;
+  padding: 15px 45px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+.btn-phone-blue:hover {
+  opacity: 0.75;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  font-size: 16px !important;
+  font-weight: 550;
+  background-color: black;
+}
+header .navbar-brand {
+  font-size: 25px;
+}
+header .nav-item i {
+  font-size: 25px;
+  transform: translateX(50%);
+  left: 50%;
+}
+
+.cover, .carousel {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel {
+  padding: 100px 30px 30px 30px;
+}
+.carousel .carousel-content > h1 {
+  color: rgba(245, 249, 254, 0.8941176471);
+  font-size: 50px;
+  font-weight: 450;
+}
+.carousel .carousel-content > h3 {
+  color: #1d365e;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.carousel .carousel-content > p {
+  color: #121212;
+  font-size: 22px;
+  font-weight: 600;
+}/*# sourceMappingURL=main.css.map */

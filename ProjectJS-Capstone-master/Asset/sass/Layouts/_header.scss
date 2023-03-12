@@ -1,0 +1,30 @@
+header {
+    // background-color: $color-white-1;
+    // box-shadow: 0 2px 4px $color-white-2;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    font-size: 16px !important;
+    font-weight: 550;
+    background-color: black;
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+ a {
+    color: white; 
+}
+}
+
+
+//responsive
+// @include responsive("large-down"){
+//     header{
+//         #phoneNavbar{
+//             .nav-link{
+//                 text-align: center;
+//             }
+//         } 
+//     } 
+// }
